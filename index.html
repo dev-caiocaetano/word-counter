@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="counter">
+            <h1 class="logotype">Word Counter</h1>
+            <p class="explanatory__text">Insira um texto e uma palavra para análise.</p>
+        </div>
+        <form class="form">
+            <div class="inputs">
+                <div class="text__label">
+                    <label class="label">Texto:</label>
+                    <textarea class="text__input"></textarea>
+                </div>
+                <div class="word__label">
+                    <label class="label">Palavra:</label>
+                    <input type="text" class="word__input">
+                </div>
+            </div>
+            <button type="submit">Analisar</button>
+        </form>
+        <div>
+            <p class="occurrences">Nenhuma ocorrência de palavras.</p>
+            <p class="word__counter">Nenhum texto analisado.</p>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
